@@ -1,0 +1,23 @@
+.game-card_container{
+	position: relative;
+	border: .3rem solid #3E4357;
+	border-radius: .10rem;
+	width: 18rem;
+	height: 25rem;
+
+	display: flex;
+	overflow: hidden;
+	margin: 2rem 0 0 0;
+}
+
+.card-img{
+	min-width: 100%;
+	min-height: 100%;
+	transition: transform .8s;
+}
+
+.game-card_container:hover img{
+	transform: scale(110%);
+}
+
+
